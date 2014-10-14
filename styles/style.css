@@ -1,0 +1,400 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family:bold;
+	src:url(../fonts/FuturaStd-Medium.otf);
+}
+
+@font-face {
+	font-family:name;
+	src:url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+	font-family:serif;
+	src:url(../fonts/Lora-Regular.ttf);
+}
+
+@font-face {
+	font-family:helveticabold;
+	src:url(../fonts/HelveticaNeue-Bold.ttf);
+}
+
+@font-face {
+	font-family:helveticamedium;
+	src:url(../fonts/helveticaneue-medium.ttf);
+}
+
+@font-face {
+	font-family:helveticalight;
+	src:url(../fonts/helveticaneuelight.ttf);
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+a:hover {
+	color:#999999;
+}
+
+body {
+	padding:0px;
+	margin:0px;
+	height:1500px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:scroll;
+	background-image:url(../backgrounds/background.jpg);
+}
+
+#top {
+	margin-top:5%;
+	margin-left:5%;
+	margin-right:5%;
+	background-image:url(../backgrounds/2.jpg);
+	width:90%;
+	background-size:cover;
+	height:450px;
+}
+
+#bottom {
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#F7F7F7;
+	width:90%;
+	height:450px;
+	background-image:url(../backgrounds/appbg.jpg);
+	background-size:cover;
+}
+
+#second {
+	margin-left:5%;
+    margin-right:5%;
+	width:90%;
+	height:370px;
+	background-color:#F8F8F8;
+}
+
+#logo {
+	height:65px;
+	width:65px;
+	margin-top:9px;
+	margin-left:20px;
+	display:inline-block;
+	visibility:hidden;
+}
+
+#nav {
+	list-style-type:none;
+	float:right;
+	margin-right:20px;
+	display:inline-block;
+}
+
+#link {
+	float:left;
+	color:white;
+	padding-right:28px;
+	margin-top:22px;
+	font-family:name;
+	font-size:13px;
+}
+
+#name {
+	text-align:center;
+	margin-top:60px;
+	color:white;
+	font-size:50px;
+	font-family:name;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	visibility:hidden;
+	letter-spacing:.1em;
+}
+	
+#subname {
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	color:white;
+	font-size:16px;
+	font-family:serif;
+}
+
+#subnamebottom {
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	color:white;
+	font-size:16px;
+	font-family:serif;
+	letter-spacing:.054em;
+}
+
+#buttonlabel {
+	color:inherit;
+	text-align:center;
+	vertical-align:center;
+	font-family:name;
+	font-size:14px;
+	cursor:pointer;
+	padding-top:3px;
+}
+
+#buttonlabel:hover {
+	color:inherit!important;
+}
+
+#contact {
+	color:white;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:150px;
+	height:50px;
+	border:3px solid white;
+	border-radius:3px;
+	margin-top:65px;
+	cursor:pointer;
+	transition:ease all .2s;
+}
+
+#contact:hover {
+	background-color:white;
+	color:#666666 !important;
+}
+
+#instafeed {
+	width:90%;
+	height:auto;
+	margin-right:5%;
+	margin-left:5%;
+	display:block;
+}
+
+#instagram {
+	height:auto;
+	width:10%;
+	border:0px;
+	margin:0px;
+	float:left;
+	padding:0px;
+	opacity:.5;
+	transition:ease all .1s;
+}
+
+#instagram:hover {
+	opacity:1;
+}
+
+#darker {
+    position: absolute;
+	left:0px;
+	margin-left:6%;
+	top:526px;
+    width: 1125px;
+    height: 125px;
+    z-index: 1000;
+    background-color: #000000;
+    opacity: 0.6;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+#photodiv {
+    position: absolute;
+	left:0px;
+	margin-left:6%;
+	top:526px;
+    width: 1125px;
+    height: 375px;
+    z-index: 2000;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+#creations {
+	color:#333333;
+	text-align:center;
+	margin-top:172px;
+	padding-top:30px;
+	font-family:name;
+	font-size:28px;
+	display:block;
+}
+
+.greenhousetitle {
+	font-family:helveticabold;
+	text-decoration:underline;
+	color:#333333;
+	margin-left:50px;
+	padding-top:0px;
+	margin-top:45px;
+	margin-bottom:0px;
+	padding-bottom:5px;
+	font-size:26px;
+	line-height:1em;
+}
+
+#greenhousesub {
+	font-size:16px;
+	text-decoration:none !important;
+	font-family:helveticalight;
+	padding-top:0px;
+	margin-top:0px;
+	width:92%;
+}
+
+#greenhouselogo {
+	width:94px;
+	height:100px;
+	float:left;
+	margin-left:50px;
+	margin-right:20px;
+}
+
+#quinklogo {
+	width:90px;
+	height:90px;
+	float:left;
+	margin-left:50px;
+	margin-right:20px;
+	margin-top:37px;
+}
+
+#name2 {
+	font-family: helveticabold;
+	text-align: center;
+	margin-top: 5px !important;
+	color: white;
+	font-size: 26px;
+	margin: 0px;
+}
+
+#namebox {
+	display: block;
+	padding: 0px;
+	width: 40%;
+	height: 30px;
+	margin-top: 25px;
+	margin-left: 90px;
+	font-family: helveticalight;
+	color: #666666;
+	font-size: 18px;
+	background-color:#333333;
+	border:0px;
+	padding-left:5px;
+}
+
+#namebox:hover {
+	background-color:white;
+}
+
+#namebox:focus {
+	background-color:white;
+}
+
+#emailbox {
+	display: block;
+	width: 40%;
+	height: 30px;
+	margin-left: 90px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: helveticalight;
+	color: #666666;
+	font-size: 18px;
+	background-color:#333333;
+	border:0px;	
+	padding-left:5px;
+}
+
+#emailbox:hover {
+	background-color:white;
+}
+
+#emailbox:focus {
+	background-color:white;
+}
+
+#messagebox {
+	display: block;
+	width: 40%;
+	margin-left: 90px;
+	height: 150px;
+	font-family: helveticalight;
+	color: #666666;
+	font-size: 18px;
+	background-color:#333333;
+	border:0px;
+	padding-left:5px;
+}
+
+#messagebox:hover {
+	background-color:white;
+}
+
+#messagebox:focus {
+	background-color:white;
+}
+
+textarea:focus {
+	outline-width: 0;
+}
+
+#sendbutton {
+	cursor: pointer;
+	width: 125px;
+	margin-top: 30px;
+	height: 40px;
+	border:3px solid #999999;
+	border-radius:3px;
+	font-family: name;
+	font-size: 14px;
+	color:#999999;
+	text-align: center;
+	margin-left: 90px;
+	background:transparent;
+	vertical-align:center;
+}
+
+#sendbutton:hover {
+	color:#333333;
+	background-color:white;
+	border:3px solid white;
+	transition: ease all .3s;
+}
+
+a {
+	text-decoration: none;
+}
+
+div ul li ul {
+	display:none;
+}
+
+div ul li:hover ul { 
+	z-index:99999;
+	display:list-item !important;
+	position:absolute;
+	margin-top:5px;
+	margin-left:-40px;
+	list-style:none;
+	line-height:20px;
+}
+
+
+#about {
+	text-align: right;
+	color: white;
+	font-family: helveticalight;
+	width: 30%;
+	float: right;
+	padding-top: 50px;
+	margin-right: 140px;
+}
