@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 </a>
 <p class="greenhousetitle" id="greenhousesub">Top-10 finalist at MHacks IV. A free browser extension for Chrome and Safari that lets you read the news faster without leaving the page you’re on. Quink displays a short summary of linked pages/articles on mouse hover using a natural language processing API. A truly integrated browsing experience, complete with easy social sharing. See the website <a href="http://quink.nicholasrub.in" style="color:#666666;">here</a>.</p>
 </div>
-<p id="about"><img src="images/avatar.png" height="90" width="90" style="border:4px solid white;margin-bottom:20px;"><br>I'm <span style="color:white!important;text-decoration:underline!important;font-size:17px!important;"><b>Nicholas Rubin</b></span>, a 16-year-old designer, developer, and photographer living in Seattle, WA. I specialize in web design and web applications. Creator of Greenhouse, and finalist at MHacks IV.
+<p id="about"><img src="images/newavatar.png" height="90" width="90" style="border:4px solid white;margin-bottom:20px;"><br>I'm <span style="color:white!important;text-decoration:underline!important;font-size:17px!important;"><b>Nicholas Rubin</b></span>, a 16-year-old designer, developer, and photographer living in Seattle, WA. I specialize in web design and web applications. Creator of Greenhouse, and finalist at MHacks IV.
 <br><br>
 <span style="line-height:1.5em;">
 <a href="http://blog.nicholasrub.in" target="_blank" onClick="ga('send', 'event', 'button', 'click', 'blog');"><span style="color:white;border-bottom:1px solid white;">Blog</span></a><br>
